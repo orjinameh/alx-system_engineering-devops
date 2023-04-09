@@ -7,5 +7,5 @@
 #ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 #sudo service nginx restart
 
-sudo sed -i "s/sites-enabled/sites-available/" /etc/nginx/nginx.conf
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx restart
