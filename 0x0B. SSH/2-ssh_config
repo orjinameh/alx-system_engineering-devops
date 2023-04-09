@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# Configure your SSH client to avoid inputing password every time you connect to your server
-
-Host *
-	PasswordAuthentication no
-	IdentifyFile ~/.ssh/school
